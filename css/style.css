@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+.navbar{
+  padding: 0;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+.navbar-div{
+  padding: 0;
+  background-color: #803F31;
+}
+
+.menu{
+  display: flex;
+  justify-content: right;
+  font-size: 1.5rem;
+  background-color: #803F31;
+}
+
+.menu-nav li{
+padding: 0.5rem 3rem;
+}
+
+.menu-nav li a{
+  color:#333333
+}
+
+
+.carousel{
+  padding: 1rem 5rem;
+  padding-bottom: 10rem;
+}
+
+.carousel-item img{
+  height: 80vh;
+}
+
+.cards-containter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  flex-wrap: wrap;
+}
+/*Index*/
+
+.boton-personalizado-4 {
+text-decoration:none;
+font-weight: 600;
+font-size: 20px;
+color:#333333;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:40px;
+padding-right:40px;
+background-color:#C18F84;
+border-color: #d8d8d8;
+border-width: 2.5px;
+border-style: solid;
+border-radius:35px;
+float: right;
+padding: 10px;
+text-align: center;
+margin-right: 8px;
+}
+
+/*catalogo*/
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  
+}
+
+.titulo{
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin: 30px;
+  font-size: 30px;
+}
+
+.caja img{
+  width: 380px;
+  height: 310px;
+  border-radius: 25px;
+  border: 1.5px solid black;
+}
+
+.caja{
+  margin: 10px;
+}
+
+.caja p{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+/* como comprar*/
+
+ol{
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: normal;
+  margin-left: 20px;
+}
+
+/* contacto */
+
+.form-contact {
+  background: #FFF;
+  width: 600px;
+  position: static;
+  margin: auto;
+  padding: 50px;
+  transform: translate(-50% -50%);
+  box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
+}
+
+.contact {
+  padding: .8rem;
+  overflow: hidden;
+  color: gray;
+}
+
+.contact label, .contact input, .contact textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;   
+}
+
+.contact label {
+  font-weight: 700;
+}
+
+.contact input:not([type='submit']), .contact textarea {
+  border: none;
+  border-bottom: 2px solid #C18F84;
+  margin-bottom: 10px;
+  font-size: 20px;
+  outline: none;
+  color: gray;
+}
+
+.contact textarea {
+  min-height: 100px;
+}
+
+input[type='submit'] {
+  padding: 10px;
+  background: #C18F84;
+  border: none;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+.maps{
+  text-align: center;
+  position: static;
+  margin: auto;
+  padding: 50px;
+
+}
+
+.dondenosencontramos{
+text-align: center;
+font-size: 20px;
+font-weight: bold;
+line-height: normal;
+margin: 20px
+}
+
+.dondeestamos{
+text-align: center;
+font-size: 20px;
+font-weight: bold;
+line-height: normal;
+margin: 20px
+}
+
+/* estilos footer */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+  align-items: center;
+  background-color:#803F31;
+  padding: 1rem;
+}
+.menu-footer{
+  font-size: 1.5rem;
+
+}
+
+@media (max-width: 768px){
+  .footer{
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px){
+  .carousel{
+    display: none;
+  }
+  
+  iframe{
+    width: 380px;
+  }
+}
